@@ -1,7 +1,7 @@
 var makeImgDancer = function(top, left, timeBetweenSteps) {
     makeDancer.call(this, top, left, timeBetweenSteps);
     
-    this.$node = $('<span class= "imgDancer"></span>')
+    this.$node = $('<div class="imgDancer"><img class="imgDancer" src="https://vignette.wikia.nocookie.net/mario/images/5/5c/Jumping_Mario_Artwork_-_New_Super_Mario_Bros._Wii.png/revision/latest?cb=20120317184553" /></div>')
     
     // this.blinkyDancer = makeDancer(top, left, timeBetweenSteps);
   

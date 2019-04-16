@@ -1,7 +1,7 @@
 var makeBlueDancer = function(top, left, timeBetweenSteps) {
   makeDancer.call(this, top, left, timeBetweenSteps);
   
-  this.$node = $('<span class= "blueDancer"></span>')
+  this.$node = $('<div class="goomba"><img class="goomba" src="https://vignette.wikia.nocookie.net/mario/images/6/6c/Bowser%2C_Super_Mario_64_DS.png/revision/latest?cb=20121106012958" /></div>')
   
   // this.blinkyDancer = makeDancer(top, left, timeBetweenSteps);
 
@@ -11,7 +11,7 @@ var makeBlueDancer = function(top, left, timeBetweenSteps) {
  //this.step()
   
   // return blinkyDancer;
-  this.setPosition(top, left);
+ // this.setPosition(top, left);
   
 };
   makeBlueDancer.prototype = Object.create(makeDancer.prototype);
@@ -24,5 +24,5 @@ var makeBlueDancer = function(top, left, timeBetweenSteps) {
     // toggle() is a jQuery method to show/hide the <span> tag.
     // See http://api.jquery.com/category/effects/ for this and
     // other effects you can use on a jQuery-wrapped html tag.
-    this.$node.toggle();
+    // this.$node.toggle();
   };
