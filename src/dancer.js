@@ -2,8 +2,7 @@
 var makeDancer = function(top, left , timeBetweenSteps) {
 
   // use jQuery to create an HTML <span> tag
-  this.$node = $('<span class="dancer"></span>');
-
+  this.$node = $('<img class="dancer" src="https://vignette.wikia.nocookie.net/mario/images/5/5c/Jumping_Mario_Artwork_-_New_Super_Mario_Bros._Wii.png/revision/latest?cb=20120317184553 >');
   this.timeBetweenSteps = timeBetweenSteps;
   
   //console.log(this.step)
